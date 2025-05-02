@@ -1,0 +1,37 @@
+    Estructura General:
+        La estructura es simple y bien organizada, con encabezados (<h1>, <h2>, <h3>) que facilitan la lectura.
+        Utilizas adecuadamente las etiquetas <figure> y <figcaption> para mostrar imágenes con descripciones, lo cual es excelente para mejorar la accesibilidad y el SEO.
+    Imágenes:
+        Las imágenes tienen el atributo alt, lo que es importante para accesibilidad, pero sería aún mejor si las descripciones fueran más específicas sobre lo que representan las imágenes, como por ejemplo "Vista panorámica desde el Mirador de Torre Baró".
+        Asegúrate de que las imágenes estén optimizadas para la web, para mejorar la velocidad de carga de la página.
+    Enlaces:
+        Los enlaces a Google Maps están bien implementados, pero ten en cuenta que podrían abrirse en una nueva pestaña (target="_blank") para que el usuario no abandone tu página.
+        Sería útil agregar una descripción breve sobre lo que se encontrará el usuario al hacer clic en el enlace.
+    Estilo y Diseño:
+        El texto tiene buen formato, pero puedes considerar agregar algunos márgenes o un poco de espacio entre los párrafos para una mejor legibilidad.
+        Para mejorar el diseño de las imágenes, puedes centrarlas usando CSS, ya que algunas de las clases que has asignado (centrado) indican que hay una intención de alinearlas.
+    Clase clear:
+        La clase clear no tiene reglas asociadas en el código que proporcionas. Si estás utilizando esta clase para asegurarte de que el contenido no se solape con las imágenes flotantes, debes asegurarte de que esté definida en tu archivo CSS o usar un enfoque más adecuado con clearfix.
+    Tip de Gaudir Més:
+        El tip sobre "Gaudir Més" es útil y atractivo, pero sería aún mejor si proporcionas más contexto sobre qué es este servicio, cómo registrarse y qué beneficios ofrece.
+    Responsive Design:
+        Asegúrate de que el diseño sea responsive para que se vea bien en dispositivos móviles, especialmente las imágenes. Puedes usar CSS para hacer que las imágenes y los textos se ajusten adecuadamente en diferentes tamaños de pantalla.
+    Footer:
+        Aunque no se menciona un footer, podrías considerar agregar uno con más información sobre tu blog, contacto o redes sociales para hacerlo más completo.
+Sugerencias de Mejora:
+
+    Optimización de las imágenes:
+        Utiliza formatos de imágenes como .webp o compresión de imágenes para hacer que carguen más rápido.
+    Estilos en línea:
+        Si estás utilizando muchos estilos en línea, como en el <body>, te sugeriría moverlos a un archivo CSS externo para mantener el código limpio y más fácil de mantener.
+    Ajustes en el <body>:
+        El <body> tiene un estilo en línea (background-color:#dbeeff). Considera trasladarlo a un archivo CSS para mejorar la organización y facilitar futuros cambios.
+
+IMPORTANTE!
+La estructura de carpetas debe ser: 
+Una carpeta img.
+Una carpeta de CSS
+Una carpeta de pages
+El index.html
+
+LA identación del código se debe respetar y puedes realizarla con una combinación de teclas 
